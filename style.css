@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+/* Menu STYLES */
+
+nav {
+  background: white;
+  color: black;
+  height: 100px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+}
+
+.nav-logo {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 150px;
+  padding: 1.4rem;
+}
+
+.nav-menu {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  list-style-type: none;
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.nav-list li {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list p {
+  width: 60%;
+  height: 40px;
+  transition: 0.3s;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.nav-list p:hover {
+  background: black;
+  color: white;
+  opacity: 1;
+}
+
+/* HERO STYLES */
+
+.hero {
+  background-image: url("https://media.istockphoto.com/id/1152012544/photo/men-training-with-barbells.jpg?s=612x612&w=0&k=20&c=6vta633vvLjZLas2TCHqFkHAvkrx-Q5VpO4y3gyI09c=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-info-container {
+  margin-left: 2rem;
+}
+
+.hero-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 10px solid white;
+}
+
+.hero-info-box p {
+  padding-left: 1rem;
+}
+
+.hero-title-one {
+  font-size: 1.2rem;
+  color: white;
+}
+.hero p {
+  color: white;
+}
+
+.hero-title {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-style: bold;
+  font-weight: 800;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+}
+footer ul {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+footer li {
+  margin: 1rem;
+  display: flex-end;
+}
+footer p {
+  margin-top: 6%;
+  margin-left: 30%;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a {
+  color: white;
+}
+.copyright {
+  flex: 1;
+  display: flex;
+}
+.bestbody-section {
+  margin-top: 10%;
+}
+.cubes {
+  margin-bottom: 10%;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cube-container {
+  align-items: center;
+  border: 2px solid black;
+  margin: 2rem;
+  padding-top: 5px;
+}
+.cube-container:hover {
+  border: 2px solid aqua;
+}
+
+.cube-img {
+  width: 230px;
+  height: 200px;
+}
+.cube-img:hover {
+  position: relative;
+  top: -5px;
+  padding-bottom: 5px;
+}
+
+.fig-title {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bolder;
+  margin-bottom: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+.fig-title:hover {
+  cursor: pointer;
+}
+.p-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.section2-stats {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
+.grid-stats {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: end;
+  text-align: end;
+  padding-right: 20px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 10%;
+  width: 500px;
+  height: 50px;
+  cursor: pointer;
+}
+.section2 {
+  background-image: url("https://movingblessing.com/wp-content/uploads/2023/02/WELCOME-TO-BACKGROUND.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: right;
+  opacity: 3;
+}
+.numbers {
+  text-align: center;
+  padding: 10px;
+  margin-right: 5%;
+  width: 200px;
+  height: 150px;
+}
+.section2-title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-right: 10%;
+}
+.section-about {
+  margin-top: 10%;
+  margin-left: 50%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  text-align: left;
+  font-weight: 900;
+}
+.services {
+  background: linear-gradient(black 50%, white 50%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+}
+.two {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.services-img {
+  height: 100%;
+  width: 100%;
+  border: 2px solid purple;
+}
+
+.pictures {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  margin: 25px;
+}
+.pictures:hover {
+  opacity: 0.5;
+}
+.pictures img {
+  width: 500px;
+  height: 500px;
+}
+.img-caption {
+  position: absolute;
+  bottom: 25px;
+  left: 32px;
+  color: white;
+  font-weight: 900;
+}
+.services-button {
+  margin-left: 45%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid black;
+  background-color: white;
+}
+.services-button:hover {
+  color: black;
+}
+.rowing-sec {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+.testemonial {
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  margin-right: 60%;
+  margin-left: 5%;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+}
+.img-row {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.price-box {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 10% 20% 10%;
+  justify-content: space-between;
+  height: 550px;
+}
+.price-choice {
+  border: 2px solid black;
+  align-items: center;
+}
+.pricing-img {
+  width: 350px;
+  height: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.text-li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.list {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+.list li:before {
+  content: "✓";
+}
+.button-price {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  margin-top: 10%;
+  border: 2px solid black;
+}
+.pricing-title {
+  margin-top: 7%;
+  text-align: center;
+  font-size: large;
+  font-weight: 1000 !important;
+}
+.pricing-title p {
+  font-weight: 1000;
+  font-size: large;
+}
+.last {
+  position: relative;
+  text-align: center;
+}
+.last img {
+  width: 100%;
+}
+.text-last {
+  position: absolute;
+  top: 50%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: start;
+}
+.last-button {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid black;
+}
+.p {
+  font-size: large;
+  font-weight: bold;
+}
