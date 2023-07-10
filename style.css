@@ -3,8 +3,11 @@
 body {
   background-color: white;
   margin: 0;
+  overflow-x: hidden;
 }
-
+html {
+  overflow-x: hidden;
+}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -300,6 +303,7 @@ a {
 .pictures img {
   width: 500px;
   height: 500px;
+  object-fit: cover;
 }
 .img-caption {
   position: absolute;
