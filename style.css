@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-
 body {
   background-color: white;
   margin: 0;
   overflow-x: hidden;
 }
+
 html {
   overflow-x: hidden;
 }
@@ -125,7 +125,8 @@ footer {
   color: white;
   display: flex;
   flex-direction: row;
-  height: 100px;
+  align-items: center;
+  height: auto;
   font-family: "Lato", sans-serif;
   padding: 0;
 }
@@ -136,14 +137,16 @@ footer ul {
   flex-direction: row;
   flex: 1;
   align-items: center;
+  justify-content: center;
 }
 footer li {
   margin: 1rem;
-  display: flex-end;
+  display: flex;
 }
 footer p {
   margin-top: 6%;
   margin-left: 30%;
+  padding-right: 2rem;
 }
 a:link {
   text-decoration: none;
@@ -155,6 +158,9 @@ a {
 .copyright {
   flex: 1;
   display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 }
 .bestbody-section {
   margin-top: 10%;
@@ -337,7 +343,6 @@ a {
   position: absolute;
   top: 170px;
   left: 50px;
-  margin-right: 60%;
   margin-left: 5%;
   color: white;
   font-size: large;
@@ -353,7 +358,7 @@ a {
   flex-direction: row;
   margin: 10% 10% 20% 10%;
   justify-content: space-between;
-  height: 550px;
+  height: auto;
 }
 .price-choice {
   border: 2px solid black;
@@ -386,6 +391,7 @@ ul {
   width: 150px;
   background-color: white;
   margin-top: 10%;
+  margin-bottom: 10%;
   border: 2px solid black;
 }
 .pricing-title {
@@ -399,21 +405,21 @@ ul {
   font-size: large;
 }
 .last {
-  position: relative;
+  background-image: url("https://barbend.com/wp-content/uploads/2023/01/Shutterstock_2119330580.jpg");
   text-align: center;
-}
-.last img {
-  width: 100%;
-}
-.text-last {
-  position: absolute;
-  top: 50%;
-  left: 76%;
-  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   color: white;
-  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-weight: bolder;
-  text-align: start;
+  font-size: x-large;
 }
 .last-button {
   height: 40px;
@@ -422,6 +428,182 @@ ul {
   border: 2px solid black;
 }
 .p {
-  font-size: large;
+  font-size: x-large;
   font-weight: bold;
+}
+@media screen and (min-width: 1200px) {
+  .testemonial {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-logo {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 75px;
+    height: 30px;
+    padding: 0.7rem;
+  }
+  .nav-menu {
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    font-size: 0.7rem;
+    font-weight: 450;
+  }
+
+  .nav-list li {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  .hero {
+    background-image: url("https://media.istockphoto.com/id/1272826997/photo/young-sweaty-strong-fit-muscular-man-with-big-muscles-doing-push-ups-on-the-kettlebells-in.jpg?s=612x612&w=0&k=20&c=C44kLwPh7W2SbW2BKlZDMDQWNfmTOixrNVMQQdSgqpE=");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  .hero-info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 5px solid white;
+    margin-left: 10px;
+  }
+  .hero-info-box p {
+    padding-left: 1rem;
+  }
+
+  .hero-title-one {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .hero-title {
+    margin-top: 9rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 800;
+    color: white;
+  }
+  .p-title {
+    text-align: center;
+  }
+  .section2 {
+    background-image: url("https://plunkettfitness.com/wp-content/uploads/2019/01/personal-trainer.jpg");
+  }
+  .section2-title {
+    font-size: 0.8rem;
+  }
+  .numbers {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 20%;
+    width: 100px;
+    height: 100px;
+    font-size: 0.9rem;
+  }
+  .button {
+    margin-left: 46%;
+    width: 200px;
+    margin-top: 35%;
+    height: 40px;
+  }
+  .pictures img {
+    object-fit: scale-down;
+    max-width: 100%;
+    height: auto;
+    padding-top: 20%;
+  }
+  .services {
+    padding-top: 20%;
+    font-size: 0.9rem;
+  }
+  .pictures {
+    height: auto;
+  }
+  .img-caption {
+    bottom: 15px;
+    left: 10px;
+  }
+  .testemonial {
+    position: absolute;
+    margin-left: 5%;
+    font-size: small;
+    top: 100px;
+    margin-right: 20px;
+  }
+  .price-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .price-choice {
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  .pricing-img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-sec {
+    display: flex;
+    flex-direction: column;
+  }
+  .last {
+    background-image: url("https://barbend.com/wp-content/uploads/2023/01/Shutterstock_2119330580.jpg");
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  footer ul {
+    margin: 0;
+  }
+  .copyright {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 1rem;
+    margin: 0;
+    width: 100%;
+    font-size: x-small;
+  }
+  .footer-p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
