@@ -432,8 +432,21 @@ ul {
   font-weight: bold;
 }
 @media screen and (min-width: 1200px) {
-  .testemonial {
-    font-size: 1.6rem;
+}
+@media screen and (max-width: 1024px) {
+  .pricing-img {
+    width: 100% !important;
+    object-fit: cover;
+  }
+  .price-choice {
+    flex: 1;
+    margin: 1%;
+  }
+  price-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
   }
 }
 
