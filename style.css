@@ -375,6 +375,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-size: small;
 }
 .list {
   list-style: none;
@@ -397,7 +398,7 @@ ul {
 .pricing-title {
   margin-top: 7%;
   text-align: center;
-  font-size: large;
+  font-size: medium;
   font-weight: 1000 !important;
 }
 .pricing-title p {
@@ -618,5 +619,8 @@ ul {
   .footer-p {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .pricing-title {
+    font-size: smaller;
   }
 }
