@@ -288,6 +288,7 @@ a {
   text-align: center;
   color: white;
   padding-top: 10%;
+  align-items: center;
 }
 .two {
   width: 100%;
@@ -325,7 +326,6 @@ a {
   font-weight: 900;
 }
 .services-button {
-  margin-left: 45%;
   margin-top: 4%;
   margin-bottom: 5%;
   width: 150px;
