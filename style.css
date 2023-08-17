@@ -402,6 +402,13 @@ ul {
   margin-top: 10%;
   margin-bottom: 10%;
   border: 2px solid black;
+  cursor: pointer;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+.button-price:hover {
+  background-color: black;
+  color: white;
 }
 .pricing-title {
   margin-top: 7%;
