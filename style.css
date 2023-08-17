@@ -226,17 +226,23 @@ a {
   text-align: end;
   padding-right: 20px;
 }
-.button {
+.button-section {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 40px;
   margin-left: 10%;
-  width: 500px;
-  height: 50px;
   cursor: pointer;
+  transition-duration: 0.4s;
+}
+.button-section:hover {
+  background-color: black;
+  color: white;
 }
 .section2 {
-  background-image: url("https://movingblessing.com/wp-content/uploads/2023/02/WELCOME-TO-BACKGROUND.png");
+  background-image: url("https://cms.evofitness.de/images/_2200xAUTO_crop_center-center_none/PTs_Digital_07.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -265,7 +271,7 @@ a {
 }
 .section-about {
   margin-top: 10%;
-  margin-left: 50%;
+  margin-left: 40%;
   margin-right: 5%;
   display: flex;
   flex-direction: column;
@@ -328,9 +334,11 @@ a {
   text-align: center;
   border: 2px solid black;
   background-color: white;
+  transition-duration: 0.4s;
 }
 .services-button:hover {
-  color: black;
+  background-color: black;
+  color: white;
 }
 .rowing-sec {
   width: 100%;
@@ -427,6 +435,13 @@ ul {
   width: 100px;
   background-color: white;
   border: 2px solid black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.last-button:hover {
+  background-color: gray;
+  color: white;
 }
 .p {
   font-size: x-large;
@@ -570,7 +585,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    margin: 0 10% 5% 10%;
   }
   .pricing-img {
     width: 100%;
@@ -622,5 +637,10 @@ ul {
   }
   .pricing-title {
     font-size: smaller;
+  }
+  .button-section {
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
   }
 }
