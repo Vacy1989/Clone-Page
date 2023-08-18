@@ -506,7 +506,7 @@ ul {
     width: 100vw;
     display: flex;
     align-items: center;
-    background-size: 1400px;
+    background-size: cover;
   }
   .hero-info-box {
     display: flex;
