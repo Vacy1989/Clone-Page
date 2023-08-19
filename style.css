@@ -507,6 +507,9 @@ ul {
     display: flex;
     align-items: center;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
   }
   .hero-info-box {
     display: flex;
@@ -535,7 +538,11 @@ ul {
     text-align: center;
   }
   .section2 {
-    background-image: url("https://plunkettfitness.com/wp-content/uploads/2019/01/personal-trainer.jpg");
+    background-image: url("https://plunkettfitness.com/wp-content/uploads/2019/01/personal-trainer.jpg")
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    background-size: cover;;
   }
   .section2-title {
     font-size: 0.8rem;
@@ -611,6 +618,10 @@ ul {
     text-align: center;
     font-size: medium;
     font-weight: bolder;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    background-size: cover;
   }
   footer {
     text-align: center;
